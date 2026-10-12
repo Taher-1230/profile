@@ -1,17 +1,23 @@
-# 🚀 Devender's Portfolio
+# 🚀 Taher Sadabarwala — Developer Portfolio
 
 <div align="center">
 
-### Modern • High Performance • Responsive • Creative
+### Full-Stack Web Developer & ML Engineer
 
-A premium personal portfolio website designed and developed for Devender—a Full-Stack Web Developer and UI/UX-focused Product Builder. Built with modern web standards, fluid animations, and a responsive dark aesthetic.
+Building explainable, scalable web platforms and intelligent AI-enabled products end-to-end.
 
-<p>
-  <a href="https://devendhargopagoni.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-00C853?style=for-the-badge" alt="Live Demo" />
+<p align="center">
+  <a href="https://github.com/Taher-1230" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Taher--1230-181717?style=for-the-badge&logo=github" alt="GitHub" />
   </a>
-  <a href="https://github.com/devendharoff/devendhar-portfolio-minimal" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
+  <a href="https://www.linkedin.com/in/taher-sadabarwala-1012b7319/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="mailto:taher.sadabar19@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Get_in_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://leetcode.com/u/Taher_Sadabar/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
 </p>
 
@@ -19,99 +25,130 @@ A premium personal portfolio website designed and developed for Devender—a Ful
 
 ---
 
-## ✨ Live Preview
+## 📌 Overview
 
-> A modern portfolio crafted to leave a strong first impression with smooth transitions, responsive layouts, elegant typography, and a premium user experience.
+This repository hosts the source code for the personal portfolio of **Taher Sadabarwala**. Designed with a modern dark aesthetic, cinematic GSAP animations, responsive layouts, and interactive components to showcase production projects, technical capabilities, experience, and contact channels.
 
-### 📸 Screenshots
+---
+
+## ✨ Preview
+
 <p align="center">
-  <img src="assets/images/thumbs/preview-hero.jpg" alt="Hero Preview" width="48%" />
-  <img src="assets/images/thumbs/preview-footer.jpg" alt="Footer Preview" width="48%" />
+  <img src="assets/images/thumbs/preview-hero.jpg" alt="Hero Section Preview" width="48%" />
+  <img src="assets/images/thumbs/preview-footer.jpg" alt="Footer Section Preview" width="48%" />
 </p>
 
-### 🔗 Portfolio URLs
-- **Live Site**: [https://devendhargopagoni.netlify.app/](https://devendhargopagoni.netlify.app/)
-- **GitHub Repository**: [https://github.com/devendharoff/devendhar-portfolio-minimal](https://github.com/devendharoff/devendhar-portfolio-minimal)
+---
+
+## 🛠 Tech Stack & Tools
+
+### Frontend & Core
+- **HTML5 & CSS3** — Semantic markup and custom modern styles
+- **Bootstrap 5** — Responsive grid and utility scaffolding
+- **JavaScript (ES6+)** — Dynamic interactivity and client logic
+- **GSAP & ScrollTrigger** — Smooth cinematic animations and transitions
+- **Swiper.js** — Touch-enabled sliders and carousels
+- **AOS (Animate On Scroll)** — Viewport-triggered scroll animations
+- **Phosphor Icons** — Vector iconography
+- **EmailJS** — Client-side contact form messaging
+
+### Technical Proficiencies
+| Domain | Technologies & Frameworks |
+|---|---|
+| **Languages** | Java, Python, Kotlin, JavaScript, TypeScript, SQL, C/C++ |
+| **Web & Backend** | React.js, Next.js, Node.js, Express, FastAPI, Socket.io |
+| **Databases** | PostgreSQL, MySQL, SQLite, MongoDB, Supabase, Firebase, Oracle DB |
+| **Cloud & AI** | AWS (EC2, S3, IAM, VPC, Bedrock), Azure Fundamentals, GenAI, LangChain, RAG Systems, Prompt Engineering |
+| **DevOps & Practices** | Git, GitHub Actions, CI/CD, Agile Methodology |
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Featured Projects
 
-| Technology | Purpose |
-|------------|----------|
-| **HTML5 & CSS3** | Clean semantic structure and premium dark layouts |
-| **Bootstrap 5** | Responsive grid system |
-| **Tailwind CSS** | Styling utility utilities |
-| **JavaScript (ES6+)** | Dynamic interactivity and state handling |
-| **GSAP (GreenSock)** | Smooth cinematic page transitions and motion effects |
-| **Swiper.js** | Interactive sliders and carousels |
-| **AOS** | On-scroll reveal animations |
-| **Phosphor Icons** | Clean modern iconography |
+### 1. [JanSaarthi](https://github.com/Aliasgersb/Rock-AI-For-Bharat)
+> **AI-Powered Government Scheme Discovery Platform**
+- Uses machine learning and rule-based logic to match citizen profiles with relevant government welfare schemes and grants.
+- Incorporates AWS Bedrock and explainable recommendation flows.
+- **Tech**: AWS Bedrock, Machine Learning, Rule-Based Logic, Python
 
----
+### 2. [TariffIQ](https://github.com/Taher-1230/Tariffiq)
+> **Explainable HS/Tariff Classification Platform**
+- Automated tariff classification for Tea, Coffee, and Spices with deterministic rules, AI extraction, and adversarial input validation.
+- Built for precision, compliance, and transparent audit trails.
+- **Tech**: React, TypeScript, Node.js, MongoDB
 
-## 🚀 Key Features
-
-*   **Dark Aesthetic UI/UX**: Premium, high-contrast dark layout tuned for developer presentation.
-*   **Fully Responsive Layout**: Optimised across all screens (Mobile, Tablet, Laptop, and 4K displays).
-*   **Zero Personal Info Leak**: Contact points centered around high-impact secure social platforms.
-*   **Smooth Motion & Transitions**: Native scrolling integrated with custom GSAP and smooth-scroll effects.
-*   **Speed & Accessibility**: Light asset loading, responsive image scaling, and clean semantic elements.
+### 3. PoolGo
+> **Smart Shared-Mobility & Ride-Sharing Platform**
+- Real-time ride coordination connecting nearby passengers with live tracking, JWT authentication, and interactive driver/admin management.
+- **Tech**: React, Tailwind CSS, Socket.io, Mapbox
 
 ---
 
-## 📁 Project Directory Structure
+## 💼 Experience & Achievements
+
+- **Web Application Developer Intern** — *Xtin Services* (Ahmedabad, India | Jan 2026 – Jun 2026)
+  - Spearheaded end-to-end development of interactive financial tools (SIP Calculator).
+  - Upgraded UI/UX component libraries and integrated backend journal module APIs.
+- **AI for Bharat Hackathon** — Semifinalist, awarded $100 AWS credits.
+- **Academic & Community Leadership** — Nirma University Scholar Certificate; Event Head at Data Science Club; Executive Member of Cyber Security Club; Member of CSI Club.
+- **Virtual Experience Programs** — Deloitte Australia Data Analytics & JPMorgan Chase Software Engineering (Forage).
+
+---
+
+## 📁 Repository Structure
 
 ```text
-devendhar-portfolio-minimal/
-├── index.html          # Main HTML entry point
-├── README.md           # Documentation
-├── package-lock.json   # Package lock configuration
-└── assets/             # Assets and styles folder
-    ├── css/            # Style sheets (Bootstrap, Swiper, custom main.css)
-    ├── js/             # JS Bundles (GSAP, Swiper, main.js)
-    ├── images/         # Project screenshots, shapes, thumbs
-    ├── fonts/          # Custom typography files
-    └── icons/          # Vector icons
+profile/
+├── index.html                 # Main website entry point
+├── README.md                  # Project documentation
+├── package-lock.json          # Dependency lockfile
+└── assets/                    # Static assets & scripts
+    ├── css/                   # Stylesheets (Bootstrap, Swiper, AOS, main.css)
+    ├── js/                    # Scripts & libraries (GSAP, Swiper, main.js)
+    ├── images/                # Images, thumbnails, shapes, & previews
+    ├── fonts/                 # Custom typography files
+    └── icons/                 # SVG & vector icons
 ```
 
 ---
 
-## 💻 Local Setup & Execution
+## 💻 Local Setup & Development
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/devendharoff/devendhar-portfolio-minimal.git
-cd devendhar-portfolio-minimal
+git clone https://github.com/Taher-1230/profile.git
+cd profile
 ```
 
 ### 2. Run Locally
 
 #### Option A: Direct Browser Preview
-Double-click and open `index.html` directly in any web browser.
+Double-click `index.html` to open it in any modern browser.
 
-#### Option B: Live Server (VS Code)
-1. Install the **Live Server** extension in VS Code.
-2. Right-click on `index.html` and select **Open with Live Server**.
+#### Option B: VS Code Live Server
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
+3. Right-click `index.html` and click **Open with Live Server**.
 
-#### Option C: Local Server (Python)
-If you have Python installed, launch a local web server:
+#### Option C: Python HTTP Server
 ```bash
-python3 -m http.server 8000
+# Python 3
+python -m http.server 8000
 ```
-Then visit: `http://localhost:8000`
+Then navigate to `http://localhost:8000` in your browser.
 
 ---
 
-## 🤝 Connect Platforms
+## 📬 Contact & Connect
 
-*   **GitHub**: [@devendharoff](https://github.com/devendharoff)
-*   **LinkedIn**: [Devender Goud](https://www.linkedin.com/in/devender-goud-033875338/)
-*   **Instagram**: [@devendharoff](https://www.instagram.com/devendharoff/?hl=en)
-*   **Connects AI**: [@connects.ai](https://www.instagram.com/connects.ai)
+- **Email**: [taher.sadabar19@gmail.com](mailto:taher.sadabar19@gmail.com)
+- **LinkedIn**: [taher-sadabarwala](https://www.linkedin.com/in/taher-sadabarwala-1012b7319/)
+- **GitHub**: [@Taher-1230](https://github.com/Taher-1230)
+- **LeetCode**: [@Taher_Sadabar](https://leetcode.com/u/Taher_Sadabar/)
+- **Location**: Ahmedabad, India
 
 ---
 
 ## 📄 License
 
-This project is available for personal and commercial portfolio use.
+This project is licensed under the [MIT License](LICENSE) — free for personal and portfolio reference use.
