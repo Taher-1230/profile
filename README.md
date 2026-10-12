@@ -31,12 +31,12 @@ This repository hosts the source code for the personal portfolio of **Taher Sada
 
 ---
 
-## ✨ Preview
+<!-- ## ✨ Preview
 
 <p align="center">
   <img src="assets/images/thumbs/preview-hero.jpg" alt="Hero Section Preview" width="48%" />
   <img src="assets/images/thumbs/preview-footer.jpg" alt="Footer Section Preview" width="48%" />
-</p>
+</p> -->
 
 ---
 
