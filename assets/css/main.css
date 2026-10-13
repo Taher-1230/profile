@@ -8472,16 +8472,9 @@ a {
   height: 820px;
 }
 .about-three-wrap-shape {
-  position: absolute;
-  inset-block-start: -172px;
+  position: static;
   width: 100%;
-  inset-inline-start: 0;
-}
-@media screen and (max-width: 991px) {
-  .about-three-wrap-shape {
-    position: static;
-    margin-block-start: 40px;
-  }
+  margin-block-start: 40px;
 }
 @media screen and (max-width: 575px) {
   .about-three-wrap-shape {

@@ -10,22 +10,22 @@
     content="Taher, Taher Sadabarwala, Full-Stack Developer, ML Engineer, React.js, Next.js, TypeScript, Node.js, AI Applications, SaaS, Portfolio" />
   <meta name="robots" content="INDEX,FOLLOW" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Title -->
+
   <title>Taher - Full-Stack Web Developer & ML Engineer</title>
-  <!-- Favicon -->
+
   <link rel="icon" href="assets/images/logo/favicon.png" type="image/png" />
-  <!-- Bootstrap -->
+
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <!-- Swiper Bundle -->
+
   <link rel="stylesheet" href="assets/css/swiper-bundle.css" />
-  <!-- Magnific Popup -->
+
   <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-  <!-- aos -->
+
   <link rel="stylesheet" href="assets/css/aos.css" />
-  <!-- Main css -->
+
   <link rel="stylesheet" href="assets/css/main.css" />
 
-  <!-- Responsive Custom Tweaks -->
+
   <style>
     html,
     body {
@@ -121,7 +121,9 @@
       border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 0.5rem;
       background: #111;
-      color: #fff;
+      color: #fff !important;
+      -webkit-text-fill-color: #fff;
+      caret-color: #fff;
     }
 
     .contact-form input::placeholder,
@@ -140,8 +142,8 @@
       resize: vertical;
     }
 
-    .contact-form-status {
-      min-height: 1.5em;
+    .contact-form-status:empty {
+      display: none;
     }
 
     .contact-details a {
@@ -163,12 +165,18 @@
       }
     }
 
+    @media (min-width: 992px) and (max-width: 1440px) {
+      .header-menu {
+        display: none !important;
+      }
+    }
+
     /* Hero banner responsiveness */
     @media (max-width: 991px) {
       .banner-three-thumb {
         margin-top: 2rem;
         margin-bottom: 2rem;
-        text-center: center;
+        text-align: center;
       }
 
       .banner-three-thumb img {
@@ -203,7 +211,7 @@
 </head>
 
 <body>
-  <!--==================== Preloader Start ====================-->
+
   <div class="preloader">
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
       <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
@@ -219,27 +227,27 @@
       </div>
     </div>
   </div>
-  <!--==================== Preloader End ====================-->
 
-  <!--==================== Overlay Start ====================-->
+
+
   <div class="overlay"></div>
-  <!--==================== Overlay End ====================-->
 
-  <!--==================== Sidebar Overlay End ====================-->
+
+
   <div class="side-overlay"></div>
-  <!--==================== Sidebar Overlay End ====================-->
 
-  <!--==================== Begin Magic Cursor Start ====================-->
+
+
   <div id="magic-cursor">
     <div id="ball"></div>
   </div>
-  <!--==================== Begin Magic Cursor End ====================-->
 
-  <!-- Custom Toast Message start -->
+
+
   <div id="toast-container"></div>
-  <!-- Custom Toast Message End -->
 
-  <!-- ==================== Scroll to Top End Here ==================== -->
+
+
   <div class="back-to-top-wrapper">
     <button id="back_to_top" type="button" class="back-to-top-btn">
       <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -248,9 +256,9 @@
       </svg>
     </button>
   </div>
-  <!-- ==================== Scroll to Top End Here ==================== -->
 
-  <!-- ==================== Offcanvus Mobile Menu Start Here ==================== -->
+
+
   <div class="tw-offcanvas-2-area p-relative">
     <div class="tw-offcanvas-2-bg is-left left-box"></div>
     <div class="tw-offcanvas-2-bg is-right right-box d-none d-md-block"></div>
@@ -290,7 +298,7 @@
                   class="text-white text-uppercase fw-bold hover-text-main-two-600 tw-transition-3"
                   style="color: #ffffff !important; font-size: 1.8rem; font-weight: 700; text-decoration: none; display: inline-block; white-space: nowrap;">Experience</a>
               </li>
-              <li><a href="#Technical-Skills"
+              <li><a href="#expertise"
                   class="text-white text-uppercase fw-bold hover-text-main-two-600 tw-transition-3"
                   style="color: #ffffff !important; font-size: 1.8rem; font-weight: 700; text-decoration: none; display: inline-block; white-space: nowrap;">Technical
                   Skills</a></li>
@@ -337,23 +345,21 @@
               <ul class="d-flex flex-wrap tw-gap-3 list-unstyled">
                 <li>
                   <a class="tw-text-sm text-white border border-neutral-700 tw-px-3 tw-py-2 tw-rounded-md d-inline-flex align-items-center tw-gap-2 hover-bg-main-two-600 hover-text-white tw-transition-3"
-                    href=" https://github.com/Taher-1230" target="_blank">
+                    href="https://github.com/Taher-1230" target="_blank" rel="noopener noreferrer">
                     <i class="ph ph-github-logo"></i> GitHub
                   </a>
                 </li>
                 <li>
                   <a class="tw-text-sm text-white border border-neutral-700 tw-px-3 tw-py-2 tw-rounded-md d-inline-flex align-items-center tw-gap-2 hover-bg-main-two-600 hover-text-white tw-transition-3"
-                    href="https://www.linkedin.com/in/taher-sadabarwala-1012b7319/" target="_blank">
+                    href="https://www.linkedin.com/in/taher-sadabarwala-1012b7319/" target="_blank" rel="noopener noreferrer">
                     <i class="ph ph-linkedin-logo"></i> LinkedIn
                   </a>
                 </li>
                 <li>
                   <a class="tw-text-sm text-white border border-neutral-700 tw-px-3 tw-py-2 tw-rounded-md d-inline-flex align-items-center tw-gap-2 hover-bg-main-two-600 hover-text-white tw-transition-3"
-                    href="https://www.instagram.com/taher.sadabar?rpxt=eGphN3FndzYzMXli&utm_source=qr" target="_blank">
+                    href="https://www.instagram.com/taher.sadabar?rpxt=eGphN3FndzYzMXli&utm_source=qr" target="_blank" rel="noopener noreferrer">
                     <i class="ph ph-instagram-logo"></i> Instagram
                   </a>
-                </li>
-                <li>
                 </li>
               </ul>
             </div>
@@ -362,21 +368,21 @@
       </div>
     </div>
   </div>
-  <!-- ==================== Offcanvus Mobile Menu End Here ==================== -->
 
-  <!-- ==================== Header Start Here ==================== -->
+
+
   <header class="header header-two header-three tw-transition-all tw-z-99 position-relative">
     <div class="container tw-container-1800-px">
       <nav class="d-flex align-items-center justify-content-between position-relative">
-        <!-- Logo Start -->
+
         <div class="header-three-logo tw-rounded-md">
           <a href="index.html" class="link text-decoration-none">
             <h2 class="text-heading fw-bold tw-mb-0 tracking-wider">TAHER</h2>
           </a>
         </div>
-        <!-- Logo End  -->
 
-        <!-- Quick Navigation Links Start -->
+
+
         <div class="header-menu d-none d-lg-block">
           <div class="main-menu">
             <nav class="tw-main-menu-content">
@@ -386,7 +392,7 @@
                 <li><a href="#experience"
                     class="text-black fw-bold text-decoration-none tw-text-lg hover-text-main-two-600"
                     style="color: #111111 !important; font-size: 1.1rem; font-weight: 700;">Experience</a></li>
-                <li><a href="#Technical-Skills"
+                <li><a href="#expertise"
                     class="text-black fw-bold text-decoration-none tw-text-lg hover-text-main-two-600"
                     style="color: #111111 !important; font-size: 1.1rem; font-weight: 700;">Technical Skills</a></li>
                 <li><a href="#achievements"
@@ -402,11 +408,11 @@
             </nav>
           </div>
         </div>
-        <!-- Navigation Links End -->
 
-        <!-- Header Right start -->
+
+
         <div class="header-right d-flex align-items-center tw-gap-705">
-          <!-- Menu Button Start  -->
+
           <div class="header-three-menu">
             <button
               class="tw-offcanvas-open-btn tw-w-13 tw-h-13 lh-1 d-inline-flex justify-content-center align-items-center tw-transition-3 tw-rounded-md">
@@ -414,9 +420,9 @@
                   alt="toggle" /></span>
             </button>
           </div>
-          <!-- Menu Button End  -->
 
-          <!-- Header Button Start  -->
+
+
           <div class="header-three-button d-none d-md-block">
             <a class="tw-hover-btn bg-black text-white fw-bold tw-py-4 tw-px-10 d-inline-block hover-text-white text-uppercase tw-rounded-md"
               href="#contact">
@@ -424,17 +430,17 @@
               <span class="tw-hover-btn-circle-dot bg-main-two-600"></span>
             </a>
           </div>
-          <!-- Header Button End  -->
+
         </div>
 
-        <!-- Header Right End  -->
+
       </nav>
     </div>
   </header>
-  <!-- ==================== Header End Here ==================== -->
+
   <div id="smooth-wrapper">
     <div id="smooth-content">
-      <!-- Banner / Hero Section -->
+
       <section class="banner-three-area">
         <div class="container tw-container-1800-px">
           <div class="row">
@@ -443,9 +449,7 @@
                 <div class="banner-three-man position-absolute start-50 translate-middle-x">
                   <img src="assets/images/shapes/banner-three-man.png" alt="Taher" />
                 </div>
-                <!-- <h1 class="banner-three-title text-black tw-mb-30 text-uppercase">
-                    TAHER
-                  </h1> -->
+
                 <div class="banner-three-wrap d-flex justify-content-between align-items-end position-relative z-1">
                   <div class="banner-three-left tw-rounded-lg" data-aos="fade-up" data-aos-duration="1000"
                     data-aos-delay="200">
@@ -526,9 +530,7 @@
                   </div>
                   <div class="banner-three-line-shape position-absolute start-50 translate-middle-x z-n1">
                     <img src="assets/images/shapes/banner-three-shape.png" alt="shape" />
-                    <!-- <div class="banner-three-carcel-shape">
-                        <div><span></span></div>
-                      </div> -->
+
                   </div>
                 </div>
               </div>
@@ -537,21 +539,10 @@
         </div>
       </section>
 
-      <!-- About Section -->
+
       <section id="about" class="about-three-area py-120 position-relative z-1">
         <div class="container tw-container-1800-px">
           <div class="about-three-top position-relative z-1">
-            <div class="row justify-content-center tw-mb-21">
-              <div class="col-xl-10">
-                <div class="text-center">
-                  <!-- <h2
-                      class="about-three-title text-heading tw-text-15 tw-itm-title tw-itm-anim"
-                    >
-                      I specialize in designing and developing premium websites, SaaS platforms, AI-powered applications, dashboards, and modern digital experiences.
-                    </h2> -->
-                </div>
-              </div>
-            </div>
             <div class="row">
               <div class="col-xl-6">
                 <div class="about-three-thumb w-100 tw-clip-anim tw-rounded-lg" data-aos="fade-up"
@@ -624,7 +615,7 @@
         </div>
       </section>
 
-      <!-- Experience Section -->
+
       <section id="experience" class="service-three-area bg-black pt-120 tw-pb-15">
         <div class="container tw-container-1800-px">
           <div class="row tw-mb-15">
@@ -652,7 +643,7 @@
         </div>
       </section>
 
-      <!-- ======================== Marquee section start =========================== -->
+
       <div class="marquee tw-pt-17 bg-black">
         <div class="marquee_left d-flex align-items-center justify-content-between tw-gap-16 overflow-hidden">
           <div>
@@ -665,20 +656,8 @@
               FULL-STACK DEVELOPMENT <span class="text-white">-</span>
             </h4>
           </div>
-          <!-- <div>
-              <h2
-                class="marquee-two-title marquee-three-title text-uppercase text-white"
-              >
-                AI & AUTOMATION <span class="text-white">-</span>
-              </h2>
-            </div> -->
-          <!-- <div>
-              <h2
-                class="marquee-two-title marquee-three-title text-uppercase text-stroke"
-              >
-                UI/UX PRODUCT DESIGN <span class="text-white">-</span>
-              </h2>
-            </div> -->
+
+
           <div>
             <h4 class="marquee-two-title marquee-three-title text-uppercase text-white">
               SAAS PLATFORMS <span class="text-white">-</span>
@@ -686,9 +665,9 @@
           </div>
         </div>
       </div>
-      <!-- ======================== Marquee section end =========================== -->
 
-      <!-- Technical Skills Section -->
+
+
       <section id="expertise" class="service-three-area bg-black pt-120 tw-pb-15">
         <div class="container tw-container-1800-px">
           <div class="row tw-mb-15">
@@ -827,7 +806,7 @@
         </div>
       </section>
 
-      <!-- Projects Showcase Section -->
+
       <section id="projects" class="portfolio-three-area py-120 position-relative z-1">
         <div class="container tw-container-1800-px">
           <div class="row tw-mb-15">
@@ -840,7 +819,7 @@
           <div class="row">
             <div class="col-xl-12">
               <div class="featured-projects-grid position-relative z-1">
-                <!-- Project 1: JanSaarthi -->
+
                 <div class="portfolio-three-item featured-project-card tw-rounded-lg portfolio-wrapper">
                   <div class="portfolio-three-wrap d-flex justify-content-between flex-wrap row-gap-2">
                     <div class="tw-mb-6">
@@ -879,7 +858,7 @@
                   </div>
                 </div>
 
-                <!-- Project 2: TariffIQ -->
+
                 <div class="portfolio-three-item featured-project-card tw-rounded-lg portfolio-wrapper">
                   <div class="portfolio-three-wrap d-flex justify-content-between flex-wrap row-gap-2">
                     <div class="tw-mb-6">
@@ -919,7 +898,7 @@
                   </div>
                 </div>
 
-                <!-- Project 3: PoolGo -->
+
                 <div class="portfolio-three-item featured-project-card tw-rounded-lg portfolio-wrapper">
                   <div class="portfolio-three-wrap d-flex justify-content-between flex-wrap row-gap-2">
                     <div class="tw-mb-6">
@@ -962,7 +941,7 @@
         </div>
       </section>
 
-      <!-- Certifications & Achievements Section -->
+
       <section id="achievements" class="service-three-area bg-black pt-120 tw-pb-15">
         <div class="container tw-container-1800-px">
           <div class="row tw-mb-15">
@@ -995,175 +974,7 @@
           </div>
         </div>
       </section>
-
-      <!-- What I Build Section is temporarily disabled. -->
-      <template id="disabled-what-i-build">
-        <div id="what-i-build" class="feature-three-area py-120 position-relative z-1 bg-black">
-          <div class="container tw-container-1800-px">
-            <div class="row tw-mb-15">
-              <div class="col-12 text-center">
-                <h2 class="tw-text-15 text-white font-heading">What I Build</h2>
-                <p class="tw-text-xl text-neutral-400">Tailored digital products crafted for businesses, founders, and
-                  startups</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xl-12">
-                <div class="feature-three-wrapper hover__widget">
-                  <!-- 01 Corporate Websites -->
-                  <div class="feature-three-single current hover__reveal-item" data-aos="fade-up"
-                    data-aos-duration="1000" data-aos-delay="200">
-                    <div class="feature-three-item d-flex justify-content-between align-items-center">
-                      <div class="feature-three-left d-flex align-items-center">
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">01</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Corporate</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Corporate
-                            Websites & Enterprise Solutions</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">High
-                          Impact</span>
-                      </div>
-                    </div>
-                    <div class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/feature-three-thumb1.jpg"></div>
-                  </div>
-
-                  <!-- 02 Business Websites -->
-                  <div class="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000"
-                    data-aos-delay="200">
-                    <div class="feature-three-item d-flex justify-content-between align-items-center">
-                      <div class="feature-three-left d-flex align-items-center">
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">02</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Business</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Business
-                            Websites & Service Platforms</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Professional</span>
-                      </div>
-                    </div>
-                    <div class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb1.jpg"></div>
-                  </div>
-
-                  <!-- 03 Portfolio Websites -->
-                  <div class="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000"
-                    data-aos-delay="200">
-                    <div class="feature-three-item d-flex justify-content-between align-items-center">
-                      <div class="feature-three-left d-flex align-items-center">
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">03</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Portfolio</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Portfolio
-                            Websites & Client Branding</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Personalized</span>
-                      </div>
-                    </div>
-                    <div class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb2.jpg"></div>
-                  </div>
-
-                  <!-- 04 Landing Pages -->
-                  <div class="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000"
-                    data-aos-delay="200">
-                    <div class="feature-three-item d-flex justify-content-between align-items-center">
-                      <div class="feature-three-left d-flex align-items-center">
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">04</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">Landing
-                            Pages</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">High-Converting
-                            Landing Pages & Launch Sites</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Conversion
-                          Focused</span>
-                      </div>
-                    </div>
-                    <div class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb3.jpg"></div>
-                  </div>
-
-                  <!-- 05 SaaS Applications -->
-                  <div class="feature-three-single hover__reveal-item" data-aos="fade-up" data-aos-duration="1000"
-                    data-aos-delay="200">
-                    <div class="feature-three-item d-flex justify-content-between align-items-center">
-                      <div class="feature-three-left d-flex align-items-center">
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-20">05</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block tw-w-160-px">SaaS
-                            Apps</span>
-                        </div>
-                        <div>
-                          <span
-                            class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Scalable
-                            SaaS Platforms & Web Dashboards</span>
-                        </div>
-                      </div>
-                      <div>
-                        <span
-                          class="feature-three-text tw-text-605 fw-medium text-white tw-transition-3 d-inline-block">Full-Stack
-                          & AI</span>
-                      </div>
-                    </div>
-                    <div class="hover__reveal-bg bg-img"
-                      data-background-image="assets/images/thumbs/portfolio-two-thumb4.jpg"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </template>
-
-      <!-- Footer / Contact Section -->
-      <section id="contact" class="footer-three-area pt-120 tw-pb-10 position-relative z-1 bg-black">
+<section id="contact" class="footer-three-area pt-120 tw-pb-10 position-relative z-1 bg-black">
         <div class="container tw-container-1800-px contact-section-content">
           <div class="row tw-mb-15 text-center">
             <div class="col-12">
@@ -1177,7 +988,7 @@
           </div>
           <div class="row g-5 pb-120 align-items-start">
             <div class="col-lg-5">
-              <div class="contact-details text-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div class="contact-details text-white">
                 <h3 class="service-three-title tw-text-605 tw-mb-5">Contact Details</h3>
                 <div class="tw-mb-5">
                   <h4 class="tw-text-lg text-neutral-400 tw-mb-2">Email</h4>
@@ -1204,7 +1015,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+            <div class="col-lg-7">
               <form id="contact-form" class="contact-form">
                 <div class="row g-3">
                   <div class="col-md-6">
@@ -1231,21 +1042,18 @@
                     type="submit">
                     Send Message
                   </button>
-                  <!-- <p id="contact-form-status" class="contact-form-status text-neutral-400 tw-mb-0" role="status" aria-live="polite">
-                        The form is ready for MailJS integration. For now, email me directly.
-                      </p> -->
+                  <p id="contact-form-status" class="contact-form-status text-neutral-400 tw-mb-0" role="status" aria-live="polite"></p>
                 </div>
+              </form>
             </div>
-            </form>
           </div>
         </div>
-    </div>
-    <div class="footer-three-border tw-px-18 tw-mb-10">
+      <div class="footer-three-border tw-px-18 tw-mb-10">
       <div class="container-fluid gx-0">
         <div class="row">
           <div class="col-xl-12">
             <div class="footer-three-middile d-flex align-items-center justify-content-between">
-              <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              <div>
                 <h4 class="tw-text-2xl text-white tw-mb-2">
                   Quick Links
                 </h4>
@@ -1270,17 +1078,8 @@
                   </li>
                 </ul>
               </div>
-              <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <!-- <a
-                        class="footer-three-back-to-top tw-w-170 tw-h-170 lh-1 d-inline-flex justify-content-center align-items-center bg-main-two-600 text-white tw-text-3xl rounded-circle"
-                        href="#"
-                        ><i class="ph ph-arrow-up"></i
-                      ></a> -->
-              </div>
-              <div class="text-lg-end" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                <!-- <h4 class="tw-text-2xl text-white tw-mb-2">
-                        Taher Portfolio
-                      </h4> -->
+              <div class="text-lg-end">
+
                 <p class="tw-text-lg text-white">
                   © 2026 Taher. All rights reserved.
                 </p>
@@ -1310,53 +1109,44 @@
     </section>
   </div>
   </div>
-  <!-- Jquery js -->
+
   <script src="assets/js/jquery-3.7.1.min.js"></script>
-  <!-- phosphor Js -->
+
   <script src="assets/js/phosphor-icon.js"></script>
-  <!-- Bootstrap Bundle Js -->
+
   <script src="assets/js/boostrap.bundle.min.js"></script>
-  <!-- aos -->
+
   <script src="assets/js/aos.js"></script>
-  <!-- magnific popup js -->
+
   <script src="assets/js/magnific-popup.min.js"></script>
-  <!-- marquee -->
+
   <script src="assets/js/jquery.marquee.min.js"></script>
-  <!-- counterup js -->
+
   <script src="assets/js/purecounter.js"></script>
-  <!-- swiper bundle js -->
+
   <script src="assets/js/swiper-bundle.min.js"></script>
 
-  <!-- gsap js -->
+
   <script src="assets/js/gsap/gsap.js"></script>
-  <!-- Scroll plugin -->
+
   <script src="assets/js/gsap/gsap-scroll-to-plugin.js"></script>
-  <!-- Scroll smoother -->
+
   <script src="assets/js/gsap/gsap-scroll-smoother.js"></script>
-  <!-- Scroll Trigger -->
+
   <script src="assets/js/gsap/gsap-scroll-trigger.js"></script>
-  <!-- split text -->
+
   <script src="assets/js/gsap/gsap-split-text.js"></script>
-  <!-- chroma js -->
+
   <script src="assets/js/gsap/chroma.min.js"></script>
 
-  <!-- custom GSAP -->
+
   <script src="assets/js/slider-active.js"></script>
-  <!-- custom GSAP -->
+
   <script src="assets/js/custom-gsap.js"></script>
-  <!-- main js -->
+
   <script src="assets/js/main.js"></script>
-  <!-- cursor js -->
+
   <script src="assets/js/tw-cursor.js"></script>
-  <script>
-    document
-      .getElementById("contact-form")
-      .addEventListener("submit", function (event) {
-        event.preventDefault();
-        document.getElementById("contact-form-status").textContent =
-          "MailJS is not connected yet. Please email taher.sadabar19@gmail.com directly.";
-      });
-  </script>
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
     emailjs.init({
